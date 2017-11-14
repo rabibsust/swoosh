@@ -171,7 +171,7 @@
                                     <color key="titleColor" red="0.99603289370000003" green="0.99618560079999996" blue="0.99165958170000001" alpha="0.82658450699999997" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="La7-1C-pqi" kind="show" id="MOy-p0-Qf1"/>
+                                    <action selector="onNextTapped:" destination="0Ir-6r-Dct" eventType="touchUpInside" id="hK2-Iy-0rv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMm-rH-FYb">
@@ -205,6 +205,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1Su-E5-ay4"/>
                     </view>
+                    <connections>
+                        <segue destination="La7-1C-pqi" kind="show" identifier="skillVCSegue" id="X3V-NV-Ryw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a9n-iu-tSj" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="WVM-Yj-4v8" userLabel="Exit" sceneMemberID="exit"/>
