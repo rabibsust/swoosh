@@ -16,6 +16,7 @@
 		CE0FB7CC1FAE369400DEAA91 /* swooshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FB7CB1FAE369400DEAA91 /* swooshUITests.swift */; };
 		CE6A2DAC1FB8C00100F14343 /* LeagueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A2DAB1FB8C00100F14343 /* LeagueViewController.swift */; };
 		CE6A2DAE1FB8C09000F14343 /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A2DAD1FB8C09000F14343 /* SkillViewController.swift */; };
+		CE6A2DB01FBCA82000F14343 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A2DAF1FBCA82000F14343 /* Player.swift */; };
 		CEA22D371FB62BBA00721405 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA22D361FB62BBA00721405 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		CE0FB7CD1FAE369400DEAA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6A2DAB1FB8C00100F14343 /* LeagueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueViewController.swift; sourceTree = "<group>"; };
 		CE6A2DAD1FB8C09000F14343 /* SkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
+		CE6A2DAF1FBCA82000F14343 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		CEA22D361FB62BBA00721405 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +148,7 @@
 		CE6A2DAA1FB8BF2F00F14343 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A2DAF1FBCA82000F14343 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				CE0FB7AC1FAE369300DEAA91 /* AppDelegate.swift in Sources */,
 				CE6A2DAE1FB8C09000F14343 /* SkillViewController.swift in Sources */,
 				CEA22D371FB62BBA00721405 /* BorderButton.swift in Sources */,
+				CE6A2DB01FBCA82000F14343 /* Player.swift in Sources */,
 				CE6A2DAC1FB8C00100F14343 /* LeagueViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
